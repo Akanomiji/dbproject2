@@ -97,6 +97,7 @@
             // 
             // textTotal
             // 
+            textTotal.Enabled = false;
             textTotal.Location = new Point(119, 320);
             textTotal.Name = "textTotal";
             textTotal.Size = new Size(100, 23);

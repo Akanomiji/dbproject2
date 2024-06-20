@@ -104,7 +104,7 @@
 
         private void textAmount_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+
         }
     }
 }
