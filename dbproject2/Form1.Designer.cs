@@ -58,6 +58,8 @@
             bNew = new Button();
             bShow = new Button();
             bClose = new Button();
+            button1 = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -326,11 +328,31 @@
             bClose.UseVisualStyleBackColor = true;
             bClose.Click += bClose_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(525, 370);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 31);
+            button1.TabIndex = 21;
+            button1.Text = "Add";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(402, 370);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 31);
+            button2.TabIndex = 22;
+            button2.Text = "Add";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1089, 549);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(bClose);
             Controls.Add(bShow);
             Controls.Add(bNew);
@@ -393,5 +415,7 @@
         private DataGridViewTextBoxColumn amount;
         private DataGridViewTextBoxColumn total;
         private DataGridViewTextBoxColumn tax;
+        private Button button1;
+        private Button button2;
     }
 }
