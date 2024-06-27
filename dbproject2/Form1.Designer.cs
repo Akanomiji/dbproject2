@@ -330,11 +330,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(525, 370);
+            button1.Location = new Point(515, 370);
             button1.Name = "button1";
             button1.Size = new Size(75, 31);
             button1.TabIndex = 21;
-            button1.Text = "Add";
+            button1.Text = "Update";
             button1.UseVisualStyleBackColor = true;
             // 
             // bRemove
@@ -343,7 +343,7 @@
             bRemove.Name = "bRemove";
             bRemove.Size = new Size(75, 31);
             bRemove.TabIndex = 22;
-            bRemove.Text = "Remove";
+            bRemove.Text = "Delete";
             bRemove.UseVisualStyleBackColor = true;
             // 
             // Form1
